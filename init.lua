@@ -13,5 +13,10 @@ opt.smartindent = true    -- smart auto-indenting
 
 opt.termguicolors = true  -- enable 24-bit colors
 
-vim.cmd("syntax on");
+-- Netrw configs
+vim.g.netrw_winsize = 15  -- netrw width
+vim.g.netrw_browse_split = 4 -- browser split
+vim.g.netrw_liststyle = 3 -- list style to tree
+vim.g.netrw_banner = 0 -- disable top banner
 
+vim.cmd("syntax on");
