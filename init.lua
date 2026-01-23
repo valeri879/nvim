@@ -14,6 +14,9 @@ opt.smartindent = true    -- smart auto-indenting
 opt.termguicolors = true  -- enable 24-bit colors
 
 -- Netrw configs
+-- disable netrw at the very start of your init.lua
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
 vim.g.netrw_winsize = 15  -- netrw width
 -- vim.g.netrw_browse_split = 4 -- browser split
 vim.g.netrw_liststyle = 3 -- list style to tree
