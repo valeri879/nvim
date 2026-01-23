@@ -13,5 +13,12 @@ return {
         filters = {
             dotfiles = true,
         },
+    },
+    keys = {
+        {
+            "<leader>e",
+            "<cmd>NvimTreeFindFile<CR>",
+            desc = "Toggle explorer",
+        },
     }
 }
