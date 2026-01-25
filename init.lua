@@ -1,6 +1,7 @@
 require("config.lazy");
 
 vim.cmd("syntax on");
+vim.cmd("set background=dark");
 -- Basic options in Lua
 local opt = vim.opt  -- shorthand
 opt.wrap = false          -- no wrap lines
