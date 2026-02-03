@@ -1,4 +1,12 @@
 return {
+    vim.lsp.config("pug", {
+        filetypes = { "pug" },
+        root_dir = vim.fs.root(0, { "package.json", ".git" })
+    });
+
+    -- Enable pug lsp
+    vim.lsp.enable("pug");
+
     vim.lsp.config('angularls', {
         cmd = (function()
             local root = vim.fs.root(0, { 'package.json', 'angular.json' })
