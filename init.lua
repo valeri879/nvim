@@ -12,6 +12,7 @@ opt.tabstop = 4           -- tab width
 opt.autoindent = true     -- maintain indent from previous line
 opt.smartindent = true    -- smart auto-indenting
 opt.cmdheight = 0
+opt.cursorline = true 
 opt.termguicolors = true  -- enable 24-bit colors
 
 -- Netrw configs
