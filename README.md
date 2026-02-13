@@ -80,7 +80,7 @@ Plugins will be installed automatically on first launch.
 
 ### General Keymaps
 
-* **`<leader> `** – Find files (Telescope)
+* **`<leader><Space>`** – Find files (Telescope)
 * **`<leader>fg`** – Live grep (Telescope)
 * **`<leader>fb`** – Show open buffers (Telescope)
 * **`<leader>fh`** – Help tags (Telescope)
