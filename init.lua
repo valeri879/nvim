@@ -25,3 +25,6 @@ vim.g.netrw_liststyle = 3 -- list style to tree
 vim.g.netrw_banner = 0 -- disable top banner
 vim.g.netrw_keepdir = 0
 
+-- Go to normal mode with ESC key in terminal mode
+vim.keymap.set('t', '<Esc>', '<C-\\><C-n>', { noremap = true, silent = true })
+
