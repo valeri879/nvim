@@ -12,6 +12,7 @@ A fast, clean, and minimal Neovim setup focused on modern web development and pr
 * 🔍 Powerful fuzzy finding with Telescope
 * 🌲 Syntax highlighting powered by Tree‑sitter
 * 📁 File explorer with Nvim‑tree
+* ⌨️ Convenient keymaps including ESC to exit terminal mode
 * 🔧 Git integration, comments, auto pairs, and more
 
 ---
@@ -68,6 +69,38 @@ nvim
 ```
 
 Plugins will be installed automatically on first launch.
+
+---
+
+## ⌨️ Key Bindings
+
+### Terminal Mode
+
+* **`<Esc>`** – Exit terminal mode and return to normal mode (instead of `<C-\><C-n>`)
+
+### General Keymaps
+
+* **`<leader> `** – Find files (Telescope)
+* **`<leader>fg`** – Live grep (Telescope)
+* **`<leader>fb`** – Show open buffers (Telescope)
+* **`<leader>fh`** – Help tags (Telescope)
+* **`<leader>e`** – Toggle file explorer (Nvim-tree)
+* **`<leader>rn`** – Rename symbol (LSP)
+* **`<leader>ca`** – Code actions (LSP)
+* **`<leader>i`** – Show diagnostics in popup (LSP)
+
+### LSP Navigation
+
+* **`gd`** – Go to definition
+* **`gD`** – Go to declaration
+* **`gr`** – List all references
+* **`gi`** – Go to implementation
+* **`K`** – Show documentation (hover)
+* **`<C-k>`** – Signature help
+* **`[d`** – Previous diagnostic
+* **`]d`** – Next diagnostic
+
+> **Note:** `<leader>` is mapped to `<Space>` by default
 
 ---
 
