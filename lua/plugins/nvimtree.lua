@@ -11,7 +11,7 @@ return {
             group_empty = true,
         },
         filters = {
-            dotfiles = true,
+            dotfiles = false,
         },
     },
     keys = {
@@ -20,5 +20,5 @@ return {
             "<cmd>NvimTreeFindFile<CR>",
             desc = "Toggle explorer",
         },
-    }
+    },
 }
